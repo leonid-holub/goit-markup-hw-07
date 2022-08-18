@@ -1,0 +1,28 @@
+/* Наші клієнти */
+
+.clients__list {
+	--items: 6;
+}
+
+.clients__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid currentColor;
+	border-radius: 4px;
+	width: 170px;
+	height: 92px;
+	color: var(--socials-icon-color);
+
+	transition: color var(--anim);
+
+	&:hover,
+	:focus {
+		color: var(--accent-color);
+	}
+}
+
+.clients__icon {
+	max-width: 100%;
+	fill: currentColor;
+}

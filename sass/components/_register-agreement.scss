@@ -1,0 +1,39 @@
+.register-agreement {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+	gap: 8px;
+}
+
+.user-agreement-txt {
+	font-weight: 400;
+	line-height: calc(24 / 14);
+
+	color: var(--modal-label-txt-color);
+	user-select: none;
+}
+
+.user-agreement-link {
+	color: var(--accent-color);
+	text-underline-position: under;
+}
+
+.checkbox-icon-check {
+	opacity: 0;
+	transition: opacity var(--anim);
+}
+
+.agreement-checkbox {
+	&:checked + .modal-checkbox-icon > .checkbox-icon-check {
+		opacity: 1;
+	}
+
+	&:checked + .modal-checkbox-icon > .checkbox-icon-uncheck {
+		opacity: 0;
+	}
+}
+
+.checkbox-icon-uncheck {
+	transition: opacity var(--anim);
+}

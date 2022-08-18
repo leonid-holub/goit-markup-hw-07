@@ -1,0 +1,35 @@
+.body {
+	background-color: var(--primary-background-color);
+	color: var(--primary-text-color);
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.03em;
+	font-size: 14px;
+}
+
+/* Контейнер */
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 1200px;
+}
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+/* Сітка */
+.card-set {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--indent);
+}
+
+.card-set__item {
+	flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+
+

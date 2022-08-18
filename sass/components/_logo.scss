@@ -1,0 +1,18 @@
+
+/* Лого */
+.logo {
+	/* display: block; */
+
+	color: var(--main-logo-color);
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	word-spacing: -0.22em;
+}
+
+/* Колір для першої частини лого */
+.logo__first-part {
+	color: var(--accent-color);
+}

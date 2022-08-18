@@ -1,0 +1,9 @@
+/* Фільтр */
+.filter-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 8px;
+
+	margin-bottom: 50px;
+}
