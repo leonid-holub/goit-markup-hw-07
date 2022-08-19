@@ -358,7 +358,7 @@ img {
   --items: 4;
 }
 
-.features__list-title {
+.features__title {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.12;
@@ -366,7 +366,7 @@ img {
   margin-bottom: 10px;
 }
 
-.features__list-paragraph {
+.features__paragraph {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.7;
@@ -394,7 +394,7 @@ img {
   position: relative;
 }
 
-.services__list-paragraph {
+.services__paragraph {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -439,7 +439,7 @@ img {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team__list-title {
+.team__title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -580,7 +580,7 @@ img {
   padding-bottom: 60px;
 }
 
-.footer-socials-title {
+.footer-socials__title {
   color: var(--white);
   font-size: 14px;
   line-height: 1.14;
@@ -592,7 +592,7 @@ img {
   margin-top: 12px;
 }
 
-.footer-socials-list {
+.footer-socials__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -848,7 +848,7 @@ img {
   color: #212121;
 }
 
-.modal-label-txt {
+.modal-form__txt {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.1666666667;
@@ -856,7 +856,7 @@ img {
   color: var(--modal-label-txt-color);
 }
 
-.modal-input-icon {
+.momodal-form__icon {
   position: absolute;
   top: 29px;
   left: 12px;
@@ -865,11 +865,11 @@ img {
   transition: fill var(--anim);
 }
 
-.modal-input-field:focus + .modal-input-icon {
+.modal-form__input:focus + .momodal-form__icon {
   fill: var(--accent-color);
 }
 
-.modal-input-field {
+.modal-form__input {
   height: 40px;
   outline: transparent;
   border: 1px solid var(--modal-input-field-border-clr);
@@ -880,7 +880,7 @@ img {
   transition: border-color var(--anim);
 }
 
-.modal-input-field:focus {
+.modal-form__input:focus {
   border-color: var(--accent-color);
 }
 
@@ -933,7 +933,7 @@ img {
   color: var(--modal-register-message-placeholder-clr);
 }
 
-.register-agreement {
+.agreement {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -947,7 +947,7 @@ img {
   gap: 8px;
 }
 
-.user-agreement-txt {
+.agreement__txt {
   font-weight: 400;
   line-height: 1.7142857143;
   color: var(--modal-label-txt-color);
@@ -957,30 +957,30 @@ img {
           user-select: none;
 }
 
-.user-agreement-link {
+.agreement__link {
   color: var(--accent-color);
   text-underline-position: under;
 }
 
-.checkbox-icon-check {
+.agreement__icon--check {
   opacity: 0;
   -webkit-transition: opacity var(--anim);
   transition: opacity var(--anim);
 }
 
-.agreement-checkbox:checked + .modal-checkbox-icon > .checkbox-icon-check {
+.agreement__checkbox:checked + .agreement__icon > .agreement__icon--check {
   opacity: 1;
 }
-.agreement-checkbox:checked + .modal-checkbox-icon > .checkbox-icon-uncheck {
+.agreement__checkbox:checked + .agreement__icon > .agreement__icon--uncheck {
   opacity: 0;
 }
 
-.checkbox-icon-uncheck {
+.agreement__icon--uncheck {
   -webkit-transition: opacity var(--anim);
   transition: opacity var(--anim);
 }
 
-.modal-send-button {
+.modal-form__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1010,8 +1010,8 @@ img {
   transition: color var(--anim), background-color var(--anim), box-shadow var(--anim);
   transition: color var(--anim), background-color var(--anim), box-shadow var(--anim), -webkit-box-shadow var(--anim);
 }
-.modal-send-button:hover,
-.modal-send-button :focus {
+.modal-form__button:hover,
+.modal-form__button :focus {
   color: var(--primary-text-color);
   background-color: var(--secondary-button-background-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1059,20 +1059,20 @@ img {
           transform: translateY(0);
 }
 
-.portfolio-item__paragraph {
+.portfolio__paragraph {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.88;
 }
 
-.portfolio-item__title {
+.portfolio__title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
 }
 
-.portfolio-list-wrap {
+.portfolio__wrap {
   border: 1px solid #eeeeee;
   padding-top: 20px;
   padding-bottom: 20px;

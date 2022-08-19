@@ -1,4 +1,4 @@
-.register-agreement {
+.agreement {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -6,7 +6,7 @@
 	gap: 8px;
 }
 
-.user-agreement-txt {
+.agreement__txt {
 	font-weight: 400;
 	line-height: calc(24 / 14);
 
@@ -14,26 +14,26 @@
 	user-select: none;
 }
 
-.user-agreement-link {
+.agreement__link {
 	color: var(--accent-color);
 	text-underline-position: under;
 }
 
-.checkbox-icon-check {
+.agreement__icon--check {
 	opacity: 0;
 	transition: opacity var(--anim);
 }
 
-.agreement-checkbox {
-	&:checked + .modal-checkbox-icon > .checkbox-icon-check {
+.agreement__checkbox {
+	&:checked + .agreement__icon > .agreement__icon--check {
 		opacity: 1;
 	}
 
-	&:checked + .modal-checkbox-icon > .checkbox-icon-uncheck {
+	&:checked + .agreement__icon > .agreement__icon--uncheck {
 		opacity: 0;
 	}
 }
 
-.checkbox-icon-uncheck {
+.agreement__icon--uncheck {
 	transition: opacity var(--anim);
 }

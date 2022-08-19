@@ -15,7 +15,7 @@
 	color: #212121;
 }
 
-.modal-label-txt {
+.modal-form__txt {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: calc(14 / 12);
@@ -23,7 +23,7 @@
 	color: var(--modal-label-txt-color);
 }
 
-.modal-input-icon {
+.momodal-form__icon {
 	position: absolute;
 	top: 29px;
 	left: 12px;
@@ -31,11 +31,11 @@
 	transition: fill var(--anim);
 }
 
-.modal-input-field:focus + .modal-input-icon {
+.modal-form__input:focus + .momodal-form__icon {
 	fill: var(--accent-color);
 }
 
-.modal-input-field {
+.modal-form__input {
 	height: 40px;
 	outline: transparent;
 	border: 1px solid var(--modal-input-field-border-clr);
@@ -46,7 +46,7 @@
 	transition: border-color var(--anim);
 }
 
-.modal-input-field:focus {
+.modal-form__input:focus {
 	border-color: var(--accent-color);
 }
 
